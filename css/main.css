@@ -1,0 +1,271 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+
+}
+.container{
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 1100px;
+}
+header{
+    display: flex;
+    margin: 0 auto;
+    background: linear-gradient(155deg, #383638 2.06%, #0B0B0B 33.08%);
+}
+nav{
+    padding: 18px 0px 23px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    background: transparent;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+.nav-item{
+    font-family: 'Poppins', sans-serif;
+    color: #8B8E99;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: transparent;
+    color: white;
+}
+.header-section{
+    display: flex;
+    margin-top: 102px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 142px;
+}
+.header-section-box{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_section-left h1{ 
+    color: #FFF;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125.5%; /* 80.32px */
+
+}
+.header_section-left p{
+    padding-top: 30px;
+    padding-bottom: 47px;
+    color: #8B8E99;
+    font-family: 'Poppins' , sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 125.5%; /* 20.08px */
+}
+.header_section-left input{
+    width: 430px;
+    padding: 15px 156px 15px 56px;
+    border-radius: 15px;
+    background-color: #FFF; 
+    color: rgba(139, 142, 153, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.5%; /* 20.08px */
+}
+.header_section-right{
+    /* width: 461px;
+    height: 563px; */
+    display: flex;
+}
+.brand{
+    padding-top:73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 135px;
+
+}
+.brand-apple{
+    background: #F6F6F6;
+    border-radius: 22px;
+    display: flex;
+}
+.brand-apple img{
+    padding: 46px 0px 44px 41px;
+}
+.brand-apple h6{
+    padding: 57px 0px 0px 26px;
+    color: #1E1D1D;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.brand-apple p{
+    color: #8B8E99;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.brand-apple p{
+    padding: 9px  26px ;
+}
+.brand-xiaomi{
+    display: flex;
+    background: #F6F6F6;
+    border-radius: 22px;
+}
+.brand-xiaomi img{
+    padding: 46px 0px 44px 41px;
+}
+.brand-xiaomi h6{
+    padding: 57px 0px 0px 26px;
+    color: #1E1D1D;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.brand-xiaomi p{
+    color: #8B8E99;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 9px  26px ;
+}
+
+
+
+.brand-fitbit{
+    background: #F6F6F6;
+    border-radius: 22px;
+    display: flex;
+}
+.brand-fitbit img{
+    padding: 46px 0px 44px 41px;
+}
+.brand-fitbit h6{
+    padding: 57px 0px 0px 26px;
+    color: #1E1D1D;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.brand-fitbit p{
+    color: #8B8E99;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 9px  26px ;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pro-texts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 65px;
+    
+}
+.pro-texts p{
+    color: #3858D6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.pro-texts h4{
+    color: #1E1D1D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.product-items{
+    padding-bottom: 78px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f5f5f5ff;
+}
+.product-item img{
+    background-color: #f5f5f5ff;
+}
+.product-item h3{
+    padding-top: 11px;
+    padding-bottom: 8px;
+    color: #1E1D1D;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.product-item p{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120.5%; /* 28.92px */
+    padding-top: 8px;
+}
+.pro-button{
+    padding-bottom: 50px;
+   
+}
+.pro-button button{
+    border-radius: 12px;
+    padding: 10px 25px;
+    background:  #3858D6;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
